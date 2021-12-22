@@ -2,10 +2,10 @@
 
   $json = file_get_contents("https://covid19.ddc.moph.go.th/api/Cases/today-cases-by-provinces");
   $data = json_decode($json);
-  echo "<body bgcolor ='CC72FF'>";
+  echo "<body bgcolor ='FFA34C'>";
   echo "<h1 align = 'center'>รายงานสถานการโควิด-19 แยกจังหวัด</h1>";
-  echo "<table border='1' align = 'center' bgcolor ='DC9DFF'>";
-  echo "<tr align = 'center' bgcolor ='EACAFF'><td><b>ลำดับ</b></td><td><b>จังหวัด</b></td><td><b>ผู้ป่วยใหม่</b></td><td><b>ผู้ป่วยรวม</b></td><td><b>ผู้ป่วยใหม่ในประเทศ</b></td><td><b>ผู้ป่วยรวมในประเทศ</b></td><td><b>ผู้เสียชีวิตใหม่</b></td><td><b>ผู้เสียชีวิตรวม</b></td><td><b>วันที่อัพเดท</b></td></tr>";
+  echo "<table border='1' align = 'center' bgcolor ='FFB46E'>";
+  echo "<tr align = 'center' bgcolor ='C49D79'><td><b>ลำดับ</b></td><td><b>จังหวัด</b></td><td><b>ผู้ป่วยใหม่</b></td><td><b>ผู้ป่วยรวม</b></td><td><b>ผู้ป่วยใหม่ในประเทศ</b></td><td><b>ผู้ป่วยรวมในประเทศ</b></td><td><b>ผู้เสียชีวิตใหม่</b></td><td><b>ผู้เสียชีวิตรวม</b></td><td><b>วันที่อัพเดท</b></td></tr>";
   foreach($data as $key=>$val){
     echo "<tr>";
     echo "<td>";
