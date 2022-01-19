@@ -57,7 +57,7 @@
             <div class="card-body">
               <h5 class="card-title">จัดทำโดย</h5>
               <p class="card-text">นางสาววราลี สำราญรื่น</p>
-              <p class="card-text"><small class="text-muted">ม.6/13 เลขที่ 16 , 55585</small></p>
+              <p class="card-text"><small class="text-muted">ม.6/13 เลขที่ 16 , 55547</small></p>
             </div>
           </div>
         </div>
